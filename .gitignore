@@ -1,21 +1,6 @@
-# Virtual environment
-venv/
-
-# Python cache files
+runs/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Logs and temporary files
 *.log
 .DS_Store
-
-# YOLOv8 temporary files
-runs/
-runs/*
-runs/detect/
-runs/detect/*
-
-# Codespaces-specific
-*.code-workspace
+yolov8n.pt
