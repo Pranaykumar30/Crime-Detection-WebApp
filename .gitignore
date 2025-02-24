@@ -25,3 +25,6 @@ debug.log
 # YOLO & Object Detection
 *.pt
 runs/
+
+# YOLOv8 temporary files
+runs/
