@@ -1,6 +1,27 @@
-runs/
-__pycache__/
+# Virtual environment
+venv/
+.env
 *.pyc
+__pycache__/
+
+# Dataset & Model files
+data/
+models/
+runs/
+*.tfrecord
+
+# Logs & Temporary Files
+logs/
 *.log
+debug.log
 .DS_Store
-yolov8n.pt
+
+# IDE & System Files
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# YOLO & Object Detection
+*.pt
+runs/*
