@@ -14,3 +14,10 @@ A web app for crime detection using YOLOv8 and MobileNet.
 - Set up **virtual environment** with core dependencies:  
   - `torch`, `tensorflow`, `opencv`, `flask`  
 - Created **Flask app skeleton** in `app/app.py`.  
+
+  - **Day 2**: Dataset collection and preprocessing completed.
+    - Created data structure with 180 images across 6 classes.
+    - Labeled images with YOLOv8 and remapped to custom classes.
+    - Split into train (70%), val (15%), test (15%) sets.
+    - Preprocessed images with augmentation pipeline.
+    - Converted to TFRecord for Faster-RCNN and SSD.
