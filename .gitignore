@@ -26,3 +26,6 @@ runs/*
 
 # YOLOv8 model outputs
 models/yolo/
+
+# MobileNet model outputs
+models/mobilenet/
