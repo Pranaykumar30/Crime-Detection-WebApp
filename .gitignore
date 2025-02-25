@@ -23,3 +23,6 @@ debug.log
 # YOLO & Object Detection
 *.pt
 runs/*
+
+# YOLOv8 model outputs
+models/yolo/
